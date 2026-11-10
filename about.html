@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About the Developer — YouTube Modify</title>
+<meta name="description" content="Meet Praveen, the developer behind YouTube Modify.">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav is-stuck" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <img src="logo.png" alt="YouTube Modify logo">
+      <span>YouTube&nbsp;<b>Modify</b></span>
+    </a>
+
+    <nav class="links" id="links">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#control">Customize</a>
+      <a href="index.html#downloader">Downloader</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="about.html" class="is-active">Developer</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="btn btn-red btn-sm" href="index.html#download">Download</a>
+      <button class="burger" id="burger" aria-label="Menu" type="button"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ ABOUT HERO ============ -->
+  <section class="about-hero">
+    <div class="about-deco">
+      <span class="about-line about-line--red"></span>
+      <span class="about-line about-line--purple"></span>
+    </div>
+
+    <div class="wrap about-grid">
+      <div class="about-photo reveal">
+        <div class="photo-frame">
+          <span class="photo-edge photo-edge--red"></span>
+          <span class="photo-edge photo-edge--purple"></span>
+          <img src="creator.png" alt="Praveen — developer of YouTube Modify">
+        </div>
+        <div class="photo-tag"><i class="dot-red"></i> Developer · Designer · Builder</div>
+      </div>
+
+      <div class="about-copy reveal d2">
+        <span class="eyebrow">ABOUT THE DEVELOPER</span>
+        <h1>Hey, I'm <span class="hl-red">Praveen</span><span class="hl-purple">.</span></h1>
+        <p class="lead">
+          I built YouTube Modify because I was tired of watching ads before every video,
+          getting sponsored content pushed into my feed, and having zero say in how my own
+          player looks. So I rebuilt the whole thing — and gave every switch to the people using it.
+        </p>
+        <p>
+          This isn't a company product or an ad-funded wrapper. It's a one-person project
+          made end to end: the interface, the theme engine, the ad removal layer and the
+          external video downloader that sits right inside the player.
+        </p>
+
+        <ul class="about-facts">
+          <li><b>Role</b><span>Independent developer</span></li>
+          <li><b>Built</b><span>YouTube Modify v3.0</span></li>
+          <li><b>Focus</b><span>Ad-free, customizable apps</span></li>
+          <li><b>Belief</b><span>The viewer sets the rules</span></li>
+        </ul>
+
+        <div class="hero-actions">
+          <a class="btn btn-red" href="index.html#download">Download the app</a>
+          <a class="btn btn-ghost" href="index.html">Back to home</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">WHAT I DO</span>
+        <h2>One developer, <span class="hl-red">the whole</span> <span class="hl-purple">stack.</span></h2>
+        <p>Every part of YouTube Modify — design, build, test and release — handled personally.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card-ico red">
+            <svg viewBox="0 0 24 24"><path d="M4 5h16v11H4zM8 20h8M12 16v4"/></svg>
+          </span>
+          <h3>Interface design</h3>
+          <p>The dark red-and-purple design language you see on this site and inside the app — layouts, typography, motion and every solid-color detail.</p>
+        </article>
+
+        <article class="card reveal d2">
+          <span class="card-ico purple">
+            <svg viewBox="0 0 24 24"><path d="M8 6 3 12l5 6M16 6l5 6-5 6M13 4l-2 16"/></svg>
+          </span>
+          <h3>App engineering</h3>
+          <p>The player core, the ad-removal layer, background playback, sponsor skipping and the modifier engine with 120+ live switches.</p>
+        </article>
+
+        <article class="card reveal d3">
+          <span class="card-ico red">
+            <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+          </span>
+          <h3>Downloader system</h3>
+          <p>The built-in external downloader: quality selection, MP3 export, batch queues, resumable background transfers and file naming templates.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STORY ============ -->
+  <section class="section">
+    <div class="wrap story">
+      <div class="story-copy reveal">
+        <span class="eyebrow">THE STORY</span>
+        <h2>Why <span class="hl-purple">YouTube Modify</span> exists.</h2>
+        <p>
+          The official app decided what you watch, what you skip and what you look at —
+          ads first, suggestions second, viewer last. I wanted the opposite order.
+        </p>
+        <p>
+          So the ads were removed at the build level, the feed was handed back to the user,
+          and a full video downloader was placed one tap away from the play button.
+          Nothing is upsell, nothing is locked behind a subscription.
+        </p>
+        <blockquote>
+          “If you can see it on the screen, you should be able to change it.”
+          <cite>— Praveen, creator of YouTube Modify</cite>
+        </blockquote>
+      </div>
+
+      <div class="story-side reveal d2">
+        <div class="story-stat"><b>0</b><span>Ads shipped in this app</span></div>
+        <div class="story-stat"><b>120+</b><span>Customization switches</span></div>
+        <div class="story-stat"><b>1</b><span>Developer behind all of it</span></div>
+        <a class="btn btn-purple" href="index.html#download">Get YouTube Modify</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta">
+    <div class="wrap cta-inner reveal">
+      <img src="creator.png" alt="Praveen" class="cta-avatar">
+      <h2>Made by a viewer,<br><span class="hl-red">for</span> <span class="hl-purple">the viewers.</span></h2>
+      <p>Free forever · No account · No ads · No limits</p>
+      <a class="btn btn-red btn-lg" href="index.html#download">Download YouTube Modify</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand">
+      <a class="brand" href="index.html"><img src="logo.png" alt=""><span>YouTube&nbsp;<b>Modify</b></span></a>
+      <p>An independent client rebuilt for people who want their player, their feed and their rules.</p>
+    </div>
+
+    <div class="foot-cols">
+      <div><b>Product</b><a href="index.html#features">Features</a><a href="index.html#control">Customization</a><a href="index.html#downloader">Downloader</a></div>
+      <div><b>Get it</b><a href="index.html#download">Android APK</a><a href="index.html#download">Installation guide</a><a href="index.html#faq">Changelog</a></div>
+      <div><b>Support</b><a href="index.html#faq">FAQ</a><a href="about.html">Developer</a><a href="index.html#faq">Contact</a></div>
+    </div>
+  </div>
+  <div class="wrap foot-bar">
+    <span>© 2026 YouTube Modify · Developed by Praveen. Not affiliated with YouTube or Google LLC.</span>
+    <span>Built for viewers, not advertisers.</span>
+  </div>
+</footer>
+
+<a class="watermark" href="about.html">
+  <img src="logo.png" alt="">
+  Developed by <b>Praveen</b>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
